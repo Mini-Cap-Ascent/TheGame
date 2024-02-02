@@ -1,8 +1,8 @@
 {
-    "name": "New Controls",
+    "name": "PlayerCont",
     "maps": [
         {
-            "name": "PlayerControls",
+            "name": "PlayerControlz",
             "id": "de8067c2-59cd-4592-ad1d-abf524c2105f",
             "actions": [
                 {
