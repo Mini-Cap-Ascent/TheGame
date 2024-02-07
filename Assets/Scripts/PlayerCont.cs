@@ -28,18 +28,9 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             ""id"": ""de8067c2-59cd-4592-ad1d-abf524c2105f"",
             ""actions"": [
                 {
-                    ""name"": ""Moving"",
+                    ""name"": ""Move"",
                     ""type"": ""Value"",
                     ""id"": ""daac8fd7-50cf-4ab6-b739-7b91ded67544"",
-                    ""expectedControlType"": ""Vector2"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": true
-                },
-                {
-                    ""name"": ""Walking"",
-                    ""type"": ""Value"",
-                    ""id"": ""23e72db0-eded-49fc-9925-09fdd82430f6"",
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -54,7 +45,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Moving"",
+                    ""action"": ""Move"",
                     ""isComposite"": true,
                     ""isPartOfComposite"": false
                 },
@@ -65,7 +56,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Moving"",
+                    ""action"": ""Move"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -76,7 +67,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Moving"",
+                    ""action"": ""Move"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -87,7 +78,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Moving"",
+                    ""action"": ""Move"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -98,7 +89,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Moving"",
+                    ""action"": ""Move"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -109,7 +100,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Moving"",
+                    ""action"": ""Move"",
                     ""isComposite"": true,
                     ""isPartOfComposite"": false
                 },
@@ -120,7 +111,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Moving"",
+                    ""action"": ""Move"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -131,7 +122,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Moving"",
+                    ""action"": ""Move"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -142,7 +133,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Moving"",
+                    ""action"": ""Move"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -153,92 +144,9 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Moving"",
+                    ""action"": ""Move"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""2D Vector"",
-                    ""id"": ""7c4ba020-cd48-4151-a2ef-f8d162b066b9"",
-                    ""path"": ""2DVector"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Walking"",
-                    ""isComposite"": true,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": ""up"",
-                    ""id"": ""cec6823c-d2da-4107-a460-4ae4b394cd4e"",
-                    ""path"": ""<Joystick>/stick/down"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Walking"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""down"",
-                    ""id"": ""557220db-b05f-4f37-995c-6cddbdfea05a"",
-                    ""path"": ""<HID::Logitech G920 Driving Force Racing Wheel for Xbox One>/z"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Walking"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""left"",
-                    ""id"": ""1c6f25b0-4074-4e5b-95aa-4a964a9bbe08"",
-                    ""path"": ""<HID::Logitech G920 Driving Force Racing Wheel for Xbox One>/stick/left"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Walking"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""right"",
-                    ""id"": ""85a6d67f-cd92-4ef6-9ee7-7867735ae5a4"",
-                    ""path"": ""<HID::Logitech G920 Driving Force Racing Wheel for Xbox One>/stick/right"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Walking"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                }
-            ]
-        },
-        {
-            ""name"": ""New action map"",
-            ""id"": ""93e52281-9e71-4e50-a511-776e5d3ea9cf"",
-            ""actions"": [
-                {
-                    ""name"": ""New action"",
-                    ""type"": ""Button"",
-                    ""id"": ""f2a272dd-90e4-44f4-8f6d-6db1188c291c"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                }
-            ],
-            ""bindings"": [
-                {
-                    ""name"": """",
-                    ""id"": ""c8b8cb12-9f9f-4c31-a8ab-016f2b8ea62a"",
-                    ""path"": """",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""New action"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -247,11 +155,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
 }");
         // PlayerControlz
         m_PlayerControlz = asset.FindActionMap("PlayerControlz", throwIfNotFound: true);
-        m_PlayerControlz_Moving = m_PlayerControlz.FindAction("Moving", throwIfNotFound: true);
-        m_PlayerControlz_Walking = m_PlayerControlz.FindAction("Walking", throwIfNotFound: true);
-        // New action map
-        m_Newactionmap = asset.FindActionMap("New action map", throwIfNotFound: true);
-        m_Newactionmap_Newaction = m_Newactionmap.FindAction("New action", throwIfNotFound: true);
+        m_PlayerControlz_Move = m_PlayerControlz.FindAction("Move", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -313,14 +217,12 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
     // PlayerControlz
     private readonly InputActionMap m_PlayerControlz;
     private List<IPlayerControlzActions> m_PlayerControlzActionsCallbackInterfaces = new List<IPlayerControlzActions>();
-    private readonly InputAction m_PlayerControlz_Moving;
-    private readonly InputAction m_PlayerControlz_Walking;
+    private readonly InputAction m_PlayerControlz_Move;
     public struct PlayerControlzActions
     {
         private @PlayerControls m_Wrapper;
         public PlayerControlzActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Moving => m_Wrapper.m_PlayerControlz_Moving;
-        public InputAction @Walking => m_Wrapper.m_PlayerControlz_Walking;
+        public InputAction @Move => m_Wrapper.m_PlayerControlz_Move;
         public InputActionMap Get() { return m_Wrapper.m_PlayerControlz; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -330,22 +232,16 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         {
             if (instance == null || m_Wrapper.m_PlayerControlzActionsCallbackInterfaces.Contains(instance)) return;
             m_Wrapper.m_PlayerControlzActionsCallbackInterfaces.Add(instance);
-            @Moving.started += instance.OnMoving;
-            @Moving.performed += instance.OnMoving;
-            @Moving.canceled += instance.OnMoving;
-            @Walking.started += instance.OnWalking;
-            @Walking.performed += instance.OnWalking;
-            @Walking.canceled += instance.OnWalking;
+            @Move.started += instance.OnMove;
+            @Move.performed += instance.OnMove;
+            @Move.canceled += instance.OnMove;
         }
 
         private void UnregisterCallbacks(IPlayerControlzActions instance)
         {
-            @Moving.started -= instance.OnMoving;
-            @Moving.performed -= instance.OnMoving;
-            @Moving.canceled -= instance.OnMoving;
-            @Walking.started -= instance.OnWalking;
-            @Walking.performed -= instance.OnWalking;
-            @Walking.canceled -= instance.OnWalking;
+            @Move.started -= instance.OnMove;
+            @Move.performed -= instance.OnMove;
+            @Move.canceled -= instance.OnMove;
         }
 
         public void RemoveCallbacks(IPlayerControlzActions instance)
@@ -363,59 +259,8 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         }
     }
     public PlayerControlzActions @PlayerControlz => new PlayerControlzActions(this);
-
-    // New action map
-    private readonly InputActionMap m_Newactionmap;
-    private List<INewactionmapActions> m_NewactionmapActionsCallbackInterfaces = new List<INewactionmapActions>();
-    private readonly InputAction m_Newactionmap_Newaction;
-    public struct NewactionmapActions
-    {
-        private @PlayerControls m_Wrapper;
-        public NewactionmapActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Newaction => m_Wrapper.m_Newactionmap_Newaction;
-        public InputActionMap Get() { return m_Wrapper.m_Newactionmap; }
-        public void Enable() { Get().Enable(); }
-        public void Disable() { Get().Disable(); }
-        public bool enabled => Get().enabled;
-        public static implicit operator InputActionMap(NewactionmapActions set) { return set.Get(); }
-        public void AddCallbacks(INewactionmapActions instance)
-        {
-            if (instance == null || m_Wrapper.m_NewactionmapActionsCallbackInterfaces.Contains(instance)) return;
-            m_Wrapper.m_NewactionmapActionsCallbackInterfaces.Add(instance);
-            @Newaction.started += instance.OnNewaction;
-            @Newaction.performed += instance.OnNewaction;
-            @Newaction.canceled += instance.OnNewaction;
-        }
-
-        private void UnregisterCallbacks(INewactionmapActions instance)
-        {
-            @Newaction.started -= instance.OnNewaction;
-            @Newaction.performed -= instance.OnNewaction;
-            @Newaction.canceled -= instance.OnNewaction;
-        }
-
-        public void RemoveCallbacks(INewactionmapActions instance)
-        {
-            if (m_Wrapper.m_NewactionmapActionsCallbackInterfaces.Remove(instance))
-                UnregisterCallbacks(instance);
-        }
-
-        public void SetCallbacks(INewactionmapActions instance)
-        {
-            foreach (var item in m_Wrapper.m_NewactionmapActionsCallbackInterfaces)
-                UnregisterCallbacks(item);
-            m_Wrapper.m_NewactionmapActionsCallbackInterfaces.Clear();
-            AddCallbacks(instance);
-        }
-    }
-    public NewactionmapActions @Newactionmap => new NewactionmapActions(this);
     public interface IPlayerControlzActions
     {
-        void OnMoving(InputAction.CallbackContext context);
-        void OnWalking(InputAction.CallbackContext context);
-    }
-    public interface INewactionmapActions
-    {
-        void OnNewaction(InputAction.CallbackContext context);
+        void OnMove(InputAction.CallbackContext context);
     }
 }
